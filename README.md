@@ -1,0 +1,4 @@
+SmartIDAndroid
+==============
+
+SmartID Android version
