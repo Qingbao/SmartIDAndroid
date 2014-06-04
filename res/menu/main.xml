@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hig.no.smartid.MainActivity" >
+
+    <item android:id="@+id/sod"
+          android:title="@string/sod"
+          android:showAsAction="never" />
+    
+    
+    <item android:id="@+id/viewDS"
+          android:title="@string/DS"
+          android:showAsAction="never" />
+     
+   
+    <item android:id="@+id/viewAA"
+          android:title="@string/AA"
+          android:showAsAction="never" />
+     
+ 
+    <item android:id="@+id/viewCA"
+          android:title="@string/CA"
+          android:showAsAction="never"/>
+     
+ 
+    <item android:id="@+id/about"
+          android:title="@string/about"
+          android:showAsAction="never" />
+
+</menu>

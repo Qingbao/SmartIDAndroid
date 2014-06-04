@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hig.no.smartid.MainActivity" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/surname" />
+
+                <TextView
+                    android:id="@+id/sur"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/given" />
+
+                <TextView
+                    android:id="@+id/given"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/dob" />
+
+                <TextView
+                    android:id="@+id/dob"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/pob" />
+
+                <TextView
+                    android:id="@+id/pob"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+            
+            <TableRow>
+            
+             <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/doi" />
+
+                <TextView
+                    android:id="@+id/doi"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/doe" />
+
+                <TextView
+                    android:id="@+id/doe"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/ic" />
+
+                <TextView
+                    android:id="@+id/ic"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/ia" />
+
+                <TextView
+                    android:id="@+id/ia"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/pn" />
+
+                <TextView
+                    android:id="@+id/pn"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/com" />
+
+                <TextView
+                    android:id="@+id/com"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="" />
+            </TableRow>
+            
+             <TableRow>
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="3dip"
+                    android:text="@string/status" />
+
+                <TextView
+                    android:id="@+id/BAC"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="BAC" />
+                
+                <TextView
+                    android:id="@+id/EAC"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="EAC" />
+                
+                <TextView
+                    android:id="@+id/AA"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="AA" />
+                
+                <TextView
+                    android:id="@+id/PA"
+                    android:gravity="right"
+                    android:padding="3dip"
+                    android:text="PA" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
